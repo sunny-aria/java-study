@@ -11,6 +11,7 @@ import java.util.List;
  * @Date: 2018/10/26
  */
 public class SubjectImpl implements Subject {
+    //包含观察者的集合
     List<ObserverSelf> list = new ArrayList<>();
     @Override
     public void registerObserver(ObserverSelf o) {

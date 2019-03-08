@@ -1,10 +1,12 @@
 package study.no20;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.fail;
+
 /**
  * 组合方式使用测试注解
  * HashSetTest.java

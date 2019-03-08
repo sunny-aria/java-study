@@ -3,7 +3,7 @@
  */
 package study.no20;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * 栈单元测试

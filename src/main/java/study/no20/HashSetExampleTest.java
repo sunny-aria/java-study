@@ -1,10 +1,10 @@
 package study.no20;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class HashSetExampleTest extends HashSet<String>{
 	
